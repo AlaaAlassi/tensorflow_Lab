@@ -65,3 +65,26 @@ You should end up with two TFRecord files named `pascal_train.record` and
 The label map for the PASCAL VOC data set can be found at
 `object_detection/data/pascal_label_map.pbtxt`.
 
+
+
+
+#posiible issues 
+
+delet files from setup.py 
+```
+python setup.py install --record files.txt
+
+cat files.txt | sudo xargs rm -rf
+```
+```
+pip install tfp-nightly-gpu --upgrade --no-cache-dir --isolated
+```
+
+
+
+
+
+
+
+
+
