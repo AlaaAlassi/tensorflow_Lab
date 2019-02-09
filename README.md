@@ -76,9 +76,31 @@ python setup.py install --record files.txt
 
 cat files.txt | sudo xargs rm -rf
 ```
+
+if you can not uninstall tensorboard then you need to rmove 
+pip 
+ans 
+pip3 
+
+then install again 
+
 ```
-pip install tfp-nightly-gpu --upgrade --no-cache-dir --isolated
+sudo apt-get remove python3-pip; sudo apt-get install python3-pip
 ```
+
+for pip
+```
+sudo apt-get remove python-pip; sudo apt-get install python-pip
+
+```
+you might need to export environment variable 
+
+```
+export PATH=/Library/Frameworks/Python.framework/Versions/2.7/bin/python:${PATH}
+```
+
+
+
 
 
 
