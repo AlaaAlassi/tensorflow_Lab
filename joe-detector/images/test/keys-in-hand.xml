@@ -1,0 +1,26 @@
+<annotation>
+	<folder>test</folder>
+	<filename>keys-in-hand.jpg</filename>
+	<path>/home/alaa/Documents/joe-detector/test/keys-in-hand.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>800</width>
+		<height>755</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>keys</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>402</xmin>
+			<ymin>221</ymin>
+			<xmax>646</xmax>
+			<ymax>678</ymax>
+		</bndbox>
+	</object>
+</annotation>

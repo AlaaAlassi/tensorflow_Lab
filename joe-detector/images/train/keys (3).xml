@@ -1,0 +1,26 @@
+<annotation>
+	<folder>train</folder>
+	<filename>keys (3).jpg</filename>
+	<path>/home/alaa/Documents/joe-detector/train/keys (3).jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>250</width>
+		<height>185</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>keys</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>113</xmin>
+			<ymin>76</ymin>
+			<xmax>159</xmax>
+			<ymax>183</ymax>
+		</bndbox>
+	</object>
+</annotation>

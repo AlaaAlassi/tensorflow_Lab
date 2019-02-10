@@ -1,0 +1,26 @@
+<annotation>
+	<folder>train</folder>
+	<filename>28xp-lost-articleLarge.jpg</filename>
+	<path>/home/alaa/Documents/joe-detector/train/28xp-lost-articleLarge.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>600</width>
+		<height>400</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>keys</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>73</xmin>
+			<ymin>120</ymin>
+			<xmax>549</xmax>
+			<ymax>351</ymax>
+		</bndbox>
+	</object>
+</annotation>
